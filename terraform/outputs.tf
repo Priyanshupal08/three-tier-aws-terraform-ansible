@@ -33,3 +33,11 @@ output "bastion_public_ip" {
 output "web_private_ip" {
   value = aws_instance.web.private_ip
 }
+
+output "alb_dns_name" {
+  value = aws_lb.alb.dns_name
+}
+
+output "database_endpoint" {
+  value = aws_db_instance.mysql.endpoint
+}

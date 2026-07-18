@@ -17,3 +17,11 @@ output "private_subnet_1" {
 output "private_subnet_2" {
   value = aws_subnet.private_subnet_2.id
 }
+
+output "internet_gateway" {
+  value = aws_internet_gateway.igw.id
+}
+
+output "nat_gateway" {
+  value = aws_nat_gateway.nat.id
+}

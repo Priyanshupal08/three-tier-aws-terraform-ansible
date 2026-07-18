@@ -1,5 +1,3 @@
-# Project Progress
-
 - [x] Project Setup
 - [x] Terraform Initialization
 - [x] VPC
@@ -8,9 +6,10 @@
 - [x] NAT Gateway
 - [x] Route Tables
 - [x] Security Groups
-- [ ] Bastion Host
-- [ ] Web Server
-- [ ] Load Balancer
+- [x] SSH Key Pair
+- [x] Bastion Host
+- [x] Web Server
+- [ ] Application Load Balancer
 - [ ] RDS MySQL
 - [ ] Ansible Configuration
 - [ ] Deployment Verification

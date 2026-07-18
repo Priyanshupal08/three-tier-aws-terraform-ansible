@@ -5,15 +5,16 @@
 crash.log
 override.tf
 override.tf.json
-terraform.tfvars.backup
+terraform.rc
+.terraform.lock.hcl
 
 # Sensitive files
-*.pem
-*.key
+terraform.tfvars
+project-key.pem
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # VS Code
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db

@@ -17,7 +17,7 @@ resource "aws_db_instance" "mysql" {
 
   engine = "mysql"
 
-  engine_version = "8.0"
+  engine_version = "8.0.46"
 
   instance_class = "db.t3.micro"
 
@@ -25,9 +25,8 @@ resource "aws_db_instance" "mysql" {
 
   storage_type = "gp2"
 
-  username = "admin"
-
-  password = "Password@123"
+  username = var.db_username
+  password = var.db_password
 
   skip_final_snapshot = true
 

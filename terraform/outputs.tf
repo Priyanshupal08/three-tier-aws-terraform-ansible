@@ -25,3 +25,11 @@ output "internet_gateway" {
 output "nat_gateway" {
   value = aws_nat_gateway.nat.id
 }
+
+output "bastion_public_ip" {
+  value = aws_instance.bastion.public_ip
+}
+
+output "web_private_ip" {
+  value = aws_instance.web.private_ip
+}
